@@ -8,23 +8,32 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  gap: 10px;
 }
 
 .container {
-  border: 1px solid greenyellow;
   border-radius: 8px;
-  height: 500px;
-  width: 500px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 5px;
+  background-color: rgb(197, 175, 146);
+  height: 600px;
+  width: 600px;
+  display: grid;
+  padding: 20px;
 }
 
 .grid-item {
   border: 1px solid rgb(160, 101, 25);
-  width: 20px;
-  height: 20px;
+}
+
+button {
+  background-color: rgb(159, 143, 173);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  transition: 0.2s;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  transform: scale(0.95);
 }
