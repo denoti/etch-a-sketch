@@ -37,3 +37,14 @@ button {
 button:hover {
   transform: scale(0.95);
 }
+
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 0 auto;
+    width: 95vw;
+  }
+  .container {
+    width: 90%;
+  }
+}
